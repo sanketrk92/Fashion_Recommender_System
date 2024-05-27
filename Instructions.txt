@@ -1,0 +1,36 @@
+Steps:
+
+1) Create a folder in your local system and name it as you like (e.g. FRS)
+
+2) Download dataset from below location:
+https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
+
+Note: This might take a lot of time as the dataset size is around 25 GB.
+
+3) Extract the folder and copy "images" folder and paste it in the Python project folder "FRS"
+
+4) Create folder as "Uploads" in the Python project folder "FRS"
+
+5) Open PyCharm and create a new project.
+
+6) Create a new file and name it as "app.py" and paste the code from the GitHub file "app.py" and save
+
+7) Create a new file and name it as "main.py" and paste the code from the GitHub file "main.py" and save
+
+8) Create a new file and name it as "test.py" and paste the code from the GitHub file "test.py" and save
+
+9) Run file "app.py".
+
+Note: It will take some time, my system took around 2 Hrs for completion.
+As there are 44,441 Images, it will scan the images and extract features.
+
+embeddings.pkl and filenames.pkl files will be created in the Python project folder.
+
+10) Run file "main.py"
+
+11) Open Terminal and run below command to run streamlit app:
+ streamlit run main.py
+
+12) streamlit website will open in the browser.
+
+13) Upload an image and system will give 5 recommendations.
